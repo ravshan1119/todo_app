@@ -169,7 +169,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     } else {
                       Navigator.pushReplacementNamed(
                         context,
-                        RouteNames.tabs,
+                        RouteNames.auth,
                       );
                     }
                   },
